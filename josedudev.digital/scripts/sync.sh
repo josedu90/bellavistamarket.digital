@@ -5,10 +5,10 @@
 # Copyright (c) Ben Word
 
 DEVDIR="web/app/uploads/"
-DEVSITE="http://josedudev.test"
+DEVSITE="http://bellavistamarket.test"
 
-PRODDIR="web@josedudev.xyz:/srv/www/josedudev.xyz/shared/uploads/"
-PRODSITE="https://josedudev.xyz"
+PRODDIR="web@174.138.45.209:/srv/www/josedudev.digital/shared/uploads/"
+PRODSITE="https://josedudev.digital"
 
 STAGDIR="web@staging.josedudev.xyz:/srv/www/josedudev.xyz/shared/uploads/"
 STAGSITE="https://staging.josedudev.xyz"

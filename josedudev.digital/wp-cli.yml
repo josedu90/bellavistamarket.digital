@@ -1,13 +1,13 @@
 path: web/wp
 
 @development:
-  ssh: vagrant@josedudev.test/srv/www/josedudev.xyz/current
+  ssh: vagrant@bellavistamarket.test/srv/www/josedudev.digital/current
 
 @staging:
   ssh: vagrant@staging.josedudev.xyz/srv/www/staging.josedudev.xyz/current
 
 @production:
-  ssh: web@josedudev.xyz/srv/www/josedudev.xyz/current
+  ssh: web@174.138.45.209/srv/www/josedudev.digital/current
 
 @all:
  - @development
