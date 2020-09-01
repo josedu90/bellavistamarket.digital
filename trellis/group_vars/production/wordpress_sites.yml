@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  josedudev.xyz:
+  josedudev.digital:
     site_hosts:
       - canonical: josedudev.digital
         redirects:
