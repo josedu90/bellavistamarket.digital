@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  josedudev.xyz:
+  josedudev.digital:
     site_hosts:
       - canonical: bellavistamarket.test
-    local_path: ../josedudev.xyz # path targeting local Bedrock site directory (relative to Ansible root)
-    admin_email: ventas@josedudev.yxz
+    local_path: ../josedudev.digital # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@josedudev.digital
     multisite:
       enabled: false
     ssl:
