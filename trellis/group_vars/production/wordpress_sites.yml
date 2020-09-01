@@ -3,14 +3,14 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  josedudev.xyz:
+  josedudev.digital:
     site_hosts:
       - canonical: josedudev.digital
         redirects:
           - www.josedudev.digital
     local_path: ../josedudev.xyz # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:josedu90/bellavistamarket.git # replace with your Git repo URL
-    repo_subtree_path: bellavistamarket # relative path to your Bedrock/WP directory in your repo
+    repo: git@github.com:josedu90/bellavistamarket.digital.git # replace with your Git repo URL
+    repo_subtree_path: josedudev.xyz # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
