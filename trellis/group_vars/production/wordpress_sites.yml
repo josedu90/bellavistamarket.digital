@@ -8,7 +8,7 @@ wordpress_sites:
       - canonical: josedudev.digital
         redirects:
           - www.josedudev.digital
-    local_path: ../josedudev.xyz # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../josedudev.digital # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:josedu90/bellavistamarket.digital.git # replace with your Git repo URL
     repo_subtree_path: josedudev.digital
 
