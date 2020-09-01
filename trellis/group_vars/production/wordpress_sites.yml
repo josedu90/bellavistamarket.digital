@@ -10,7 +10,7 @@ wordpress_sites:
           - www.josedudev.digital
     local_path: ../josedudev.xyz # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:josedu90/bellavistamarket.digital.git # replace with your Git repo URL
-    repo_subtree_path: bellavistamarket.digital # relative path to your Bedrock/WP directory in your repo
+    repo_subtree_path: josedudev.xyz # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
